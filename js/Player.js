@@ -39,7 +39,7 @@ class Player {
     
 }
 
-class Ken extends Player{
+class Enemi extends Player{
     
     constructor(img, fd, sw, sh, dx, dy, dw, dh,nome){
         super(img, fd, sw, sh, dx, dy, dw, dh);
@@ -62,8 +62,6 @@ class Ken extends Player{
         if (this.dy > 130) {
             this.state = 'stop';
         }
-
-
     }
 
     control(key) {

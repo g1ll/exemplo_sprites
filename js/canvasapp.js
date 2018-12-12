@@ -8,10 +8,13 @@ $().ready(function () {
     var imgk = new Image();
     var imgbk = new Image();
     var ryu = new Player(img, 6, 80, 120, 0, 0, 120, 180);
-    var ken = new Ken(imgk,7, 60, 93, 0, 8, 90, 142,"KEN");
+    var ken = new Enemi(imgk,7, 60, 93, 0, 8, 90, 142,"KEN");
     var theme = new Audio();
     var key = 0;
     
+    console.log(ryu);
+    console.log(ken);
+       
     loadAssets();
 
     function loadAssets() {
